@@ -1,0 +1,54 @@
+\problemname{BlackMarketOil}
+CONGRATULATIONS, you live in a city ravaged by tribal warfare, 
+multiple collapsing governments, a zombie virus, and radiation bursts.
+Because of this you have been able to set up a lucrative business smuggling 
+oil through the cities now unguarded oil pipes. However, the rapidly 
+changing circumstances of the city affect your work. You can never pump oil 
+along the same path, so you can never get the same amount each time. your colleges 
+are very good at gathering intel and can tell you safe spots to begin the transfers. 
+Your clients also move around in the city. You must write a program that tells you how 
+much oil you are able to move in a given night from where your friends tell you to start 
+to your customers location.   
+
+\section*{Input}
+the program will take in an int N. Then N*N number of ints representing 
+the city pipe line grid. 
+Followed by the int representing the Start pointand finally the sink int. 
+
+\section*{output}
+your program should output the maximum oil flow available that night.
+
+\includesample{sample}
+5
+0 3 45 0 0
+0 0 54 23 0
+0 6 0 0 9
+0 0 0 34 0
+0 0 5 9 8
+1
+5
+returns 9
+
+6
+0 16 13 0 0 0
+0 0  10 12 0 0
+0 4 0 0 14 0
+0 0 9 0 0 20
+0 0 0 7 0 4
+0 0 0 0 0 0
+1
+6
+returns 23
+
+8
+45 63 45 23 0 8 2 90 
+78 34 23 0 56 2 0 0
+0 0 0 0 34 0 2 1
+0 0 0 3 60 56 21 0
+9 0 1 4 23 0 45 4
+45 23 5 6 0 0 34 65
+0 0 0 0 5 6 0 8
+0 0 0 0 0 0 0 0
+3
+7
+returns 36 
